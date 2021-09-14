@@ -5,9 +5,15 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts"
+    "start": "ts-node-dev --respawn src/index.ts",
+    "startj" : "node src/index.js"
   },
+  "type": "commonjs",
   "dependencies": {
+    "@types/node": "^16.9.1",
+    "fastify": "^3.21.1",
+    "node": "^16.9.1",
+    "node-fetch": "^2.6.2",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.4.3"
   }
