@@ -1,0 +1,36 @@
+Arguments: 
+  /home/anuvrat/.nvm/versions/node/v16.9.1/bin/node /home/anuvrat/.nvm/versions/node/v16.9.1/bin/yarn init
+
+PATH: 
+  /home/anuvrat/.local/bin:/home/anuvrat/.nvm/versions/node/v16.9.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Anuvrat/AppData/Local/Microsoft/WindowsApps:/mnt/c/adb:/mnt/c/Program Files/dotnet/:/mnt/c/MinGW/bin:/mnt/c/Users/Anuvrat/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/extras/CUPTI/libx64:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/Anuvrat.cargo/bin:/mnt/c/Program Files/Heroku/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Java/jdk1.8.0_211/bin:/mnt/c/Users/Anuvrat/AppData/Roaming/nvm/v14.8.0:/mnt/c/Users/Anuvrat/AppData/Roaming/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Calibre2/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/tools/lxrunoffline:/mnt/c/Program Files (x86)/RedHat/Podman":/mnt/c/Users/Anuvrat/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.9.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/anuvrat/.nvm/versions/node/v16.9.1/lib/node_modules/yarn/lib/cli.js:137023:13)
+      at Interface.emit (node:events:394:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:394:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:394:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

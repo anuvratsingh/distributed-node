@@ -1,0 +1,17 @@
+{
+  "name": "distributed-node",
+  "private": true,
+  "version": "0.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "Anuvrat <anuvrats06@gmail.com>",
+  "scripts": {
+    "recipe": "yarn workspace recipe-api",
+    "shared": "yarn workspace shared",
+    "web": "yarn workspace web-api"
+  },
+  "license": "MIT"
+}
