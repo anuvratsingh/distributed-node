@@ -11,7 +11,8 @@
   "scripts": {
     "recipe": "yarn workspace recipe-api",
     "shared": "yarn workspace shared",
-    "web": "yarn workspace web-api"
+    "web": "yarn workspace web-api",
+    "start" : "concurrently \"yarn recipe start\" \"yarn web start\""
   },
   "license": "MIT"
 }
